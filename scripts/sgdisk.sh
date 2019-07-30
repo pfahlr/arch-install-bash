@@ -1,11 +1,14 @@
 #!/usr/bin/bash
 #clean any previous failed runs
-umount /mnt/boot
-umount /mnt/home
-umount /mnt/.snapshots
-umount /mnt
-swapoff 
 
+if[[ $system_part_fstype == "btrfs" ]]; then
+  umount /mnt/boot
+  umount /mnt/home
+  umount /mnt/.snapshots
+fi
+
+umount /mnt && cryptsetup close /dev/mapper/encsys
+swapoff -a && cryptsetup close /dev/mapper/swap
 
 source _vars.inc.sh
 
@@ -21,7 +24,6 @@ sgdisk --clear \
 sgdisk --sort
 echo "partition table created"
 gdisk -l $target_device
-
 
 #/dev/sda1 : start=        2048, size=     1024000, type=ef
 #/dev/sda2 : start=   608258048, size=    16777216, type=82
