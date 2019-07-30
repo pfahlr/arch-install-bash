@@ -1,6 +1,6 @@
 #!/usr/bin/bash
-#commented out for testing
-#make the efi partition
+
+source _vars.inc.sh
 
 echo "################ FORMATTING EFI DISK #################"
 mkfs.fat -F32 -n EFI /dev/disk/by-partlabel/EFI
