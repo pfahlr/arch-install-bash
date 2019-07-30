@@ -1,4 +1,11 @@
 #!/usr/bin/bash
+#clean any previous failed runs
+umount /mnt/boot
+umount /mnt/home
+umount /mnt/.snapshots
+umount /mnt
+swapoff 
+
 
 source _vars.inc.sh
 
