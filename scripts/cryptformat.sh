@@ -33,7 +33,7 @@ mkfs.btrfs --force --label system /dev/mapper/system
 echo "------------------------------------------------------"
 continueyn
 
-if [[ $system_part_type == "btrfs" ]]; then
+if [[ $system_part_fstype == "btrfs" ]]; then
   ###BEGIN BTRFS SPECIFIC
   echo "################ CREATING SUBVOLUMES ####################"
   mount -t btrfs LABEL=system /mnt
@@ -59,7 +59,7 @@ if [[ $system_part_type == "btrfs" ]]; then
   echo "------------------------------------------------------"
   continueyn
   ### END BTRFS SECTION
-elif [[ $system_part_type == "ext4" ]]; then
+elif [[ $system_part_fstype == "ext4" ]]; then
   ###ext4  specific
   #make system partition
   echo "################ FORMATTING SYSTEM DISK #################"
@@ -74,7 +74,7 @@ elif [[ $system_part_type == "ext4" ]]; then
 
   mkdir /mnt/home /mnt/boot
 else
-  echo "filesystem $system_part_type not yet supported"
+  echo "filesystem $system_part_fstype not yet supported"
 fi
 
 echo "############### MOUNTING EFI PART #######################"

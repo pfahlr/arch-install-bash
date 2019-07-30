@@ -32,8 +32,8 @@ swapon -L swap
 
 echo "------------------------------------------------------"
 
-
-#make system partition 
+###ext4  specific
+#make system partition
 echo "################ FORMATTING SYSTEM DISK #################"
 mkfs.ext4 -F -L system /dev/mapper/system
 
@@ -46,7 +46,7 @@ echo "------------------------------------------------------"
 
 mkdir /mnt/home /mnt/boot
 
-
+### - EXT4 specific
 mount LABEL=EFI /mnt/boot
 
 echo "------------------------------------------------------"
