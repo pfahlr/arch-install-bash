@@ -1,8 +1,13 @@
 #!/usr/bin/bash
+
 #clean any previous failed runs
+source _vars.inc.sh
+
+echo $system_part_fstype
+
+umount /mnt/boot
 
 if [[ $system_part_fstype == "btrfs" ]]; then
-  umount /mnt/boot
   umount /mnt/home
   umount /mnt/.snapshots
 fi
@@ -10,7 +15,6 @@ fi
 umount /mnt && cryptsetup close /dev/mapper/encsys
 swapoff -a && cryptsetup close /dev/mapper/swap
 
-source _vars.inc.sh
 echo "############### ALL TARGET PARTITIONS UNMOUNTED AND CLOSED ################"
 
 continueyn

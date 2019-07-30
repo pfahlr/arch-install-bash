@@ -27,13 +27,13 @@ swapon -L swap
 echo "------------------------------------------------------"
 continueyn
 
-#make system partition
-echo "################ FORMATTING SYSTEM DISK #################"
-mkfs.btrfs --force --label system /dev/mapper/system
-echo "------------------------------------------------------"
-continueyn
-
 if [[ $system_part_fstype == "btrfs" ]]; then
+  #make system partition
+  echo "################ FORMATTING SYSTEM DISK #################"
+  mkfs.btrfs --force --label system /dev/mapper/system
+  echo "------------------------------------------------------"
+  continueyn
+
   ###BEGIN BTRFS SPECIFIC
   echo "################ CREATING SUBVOLUMES ####################"
   mount -t btrfs LABEL=system /mnt
