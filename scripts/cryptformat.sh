@@ -25,9 +25,12 @@ cryptsetup open --type plain --key-file /dev/urandom  /dev/disk/by-partlabel/ENC
 mkswap -L swap /dev/mapper/swap
 swapon -L swap
 echo "------------------------------------------------------"
+echo "..."
+echo "... about to format system partition as $system_part_fstype"
 continueyn
 
 if [[ $system_part_fstype == "btrfs" ]]; then
+
   #make system partition
   echo "################ FORMATTING SYSTEM DISK #################"
   mkfs.btrfs --force --label system /dev/mapper/system
@@ -82,7 +85,6 @@ mkdir /mnt/boot
 mount LABEL=EFI /mnt/boot
 echo "------------------------------------------------------"
 continueyn
-
 
 echo "###########!!! FILESYSTEM BUILD COMPLETE !!!#############"
 lsblk

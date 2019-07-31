@@ -6,17 +6,15 @@ source _vars.inc.sh
 echo $system_part_fstype
 
 umount /mnt/boot
+umount /mnt/home
+umount /mnt/.snapshots
 
-if [[ $system_part_fstype == "btrfs" ]]; then
-  umount /mnt/home
-  umount /mnt/.snapshots
-fi
-
-umount /mnt && cryptsetup close /dev/mapper/encsys
-swapoff -a && cryptsetup close /dev/mapper/swap
+umount /mnt
+cryptsetup close /dev/mapper/system
+swapoff -a
+cryptsetup close /dev/mapper/swap
 
 echo "############### ALL TARGET PARTITIONS UNMOUNTED AND CLOSED ################"
-
 continueyn
 
 echo "clear and create new partition table"
