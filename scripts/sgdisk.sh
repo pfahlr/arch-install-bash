@@ -1,10 +1,11 @@
 #!/usr/bin/bash
 
-#clean any previous failed runs
 source _vars.inc.sh
 
 echo $system_part_fstype
+echo "|============= CLEANING UP DETRITUS =========================================|>"
 
+#clean any previous failed runs
 umount /mnt/boot
 umount /mnt/home
 umount /mnt/.snapshots
@@ -14,10 +15,10 @@ cryptsetup close /dev/mapper/system
 swapoff -a
 cryptsetup close /dev/mapper/swap
 
-echo "############### ALL TARGET PARTITIONS UNMOUNTED AND CLOSED ################"
+echo "|============= ALL TARGET PARTITIONS UNMOUNTED AND CLOSED ===================|>"
 continueyn
 
-echo "clear and create new partition table"
+echo "... clear and create new partition table:"
 
 sgdisk --clear
 sgdisk --mbrtogpt
@@ -29,11 +30,13 @@ sgdisk --clear \
   $target_device
 sgdisk --sort
 
-echo ".......partition table created!"
+echo ".......partition table created!:"
 
 gdisk -l $target_device
 
-echo ".......end of partition table"
+echo ".......end of partition table:"
+
+echo "|============= NEXT: run cryptformat.sh ======================================|>"
 
 #/dev/sda1 : start=        2048, size=     1024000, type=ef
 #/dev/sda2 : start=   608258048, size=    16777216, type=82
