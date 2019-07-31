@@ -5,6 +5,9 @@
 ###################################
 echo "setting system specific variables"
 
+debug-step=true
+debug-echo=true
+
 target_device=/dev/sda
 echo "target device: $target_device"
 
@@ -13,14 +16,18 @@ swpnum=2
 sysnum=3
 
 system_part=${target_device}$sysnum
-echo "system partition: $system_part"
+echo "... system partition: $system_part"
 
 efi_part=${target_device}${efinum}
-echo "efi partition: $efi_part"
+echo "... efi partition: $efi_part"
 
 swap_part=${target_device}${swapnum}
-echo "swap partition: $swp_part"
+echo "... swap partition: $swp_part"
 
 #fstype (e.g., ext4, btrfs, xfs, f2fs, zfs)
 system_part_fstype=btrfs
-echo "system filesystem format: $system_part_fstype"
+
+echo "... system filesystem format: $system_part_fstype"
+
+echo "please review settings above"
+continueyn
