@@ -1,15 +1,15 @@
 #!/usr/bin/bash
 # <[A]>
 source _vars.inc.sh
-if[[ $debug_echo ]]; then
-  set -x
+if [[ $debug_echo ]]; then
+#  set -x
 fi
 
 #install base packages
 echo "|=============  INSTALLING BASE SYSTEM   =====================================|"
 pacstrap /mnt base
 
-if[[ $debug_step ]]; then
+if [[ $debug_step ]]; then
   echo "... does everything look ok?:"
   continueyn
 fi
@@ -22,7 +22,7 @@ genfstab -L -p /mnt >> /mnt/etc/fstab
 echo "... /etc/fstab: "
 cat /mnt/etc/fstab
 
-if[[ $debug_step ]]; then
+if [[ $debug_step ]]; then
   continueyn
 fi
 
@@ -36,7 +36,7 @@ cat /mnt/etc/fstab
 echo "... /etc/cryptswap:"
 cat /mnt/etc/cryptswap
 
-if[[ $debug_step ]]; then
+if [[ $debug_step ]]; then
   continueyn
 fi
 # </[B]>
@@ -49,7 +49,7 @@ cp -aR custom /mnt/tmp/custom
 echo "... booting new system, run `/tmp/install_phase2.sh` from the new environment to complete base arch installation:"
 echo "... hold on to your hat, your system is about to be completely fucked up:"
 
-if[[ $debug_step ]]; then
+if [[ $debug_step ]]; then
   continueyn
 fi
 
