@@ -1,1 +1,1 @@
-# Arch Linux Installation Scripts
+docs/rtfm.md

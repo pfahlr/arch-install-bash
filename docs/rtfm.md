@@ -16,7 +16,7 @@ Well I'm not right now. I guess capitalism works sometimes and it got it right t
 Fuck Capitalism... Fuck writing pointless code that's only there to sell people bullshit or find out what bullshit they're gonna want to buy next month. I'm done with it. And if that means I gotta go sleep on the street
 whatever. That isn't what I signed up for.
 
-Enjoy, 
+Enjoy,
 
 
 
