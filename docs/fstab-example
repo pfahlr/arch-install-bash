@@ -1,0 +1,16 @@
+# cat /mnt/etc/fstab
+
+# /dev/mapper/system UUID=xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx
+LABEL=system        	/         	btrfs     	rw,noatime,compress=lzo,ssd,space_cache,subvolid=257,subvol=/root,subvol=root	0 0
+
+# /dev/mapper/system UUID=xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx
+LABEL=system        	/home     	btrfs     	rw,noatime,compress=lzo,ssd,space_cache,subvolid=258,subvol=/home,subvol=home	0 0
+
+# /dev/mapper/system UUID=xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx
+LABEL=system        	/.snapshots	btrfs     	rw,noatime,compress=lzo,ssd,space_cache,subvolid=259,subvol=/snapshots,subvol=snapshots	0 0
+
+# /dev/nvme0n1p1 UUID=xxxx-xxxx
+LABEL=EFI           	/boot/EFI 	vfat      	rw,relatime,fmask=0022,dmask=0022,codepage=437,iocharset=iso8859-1,shortname=mixed,errors=remount-ro	0 2
+
+# /dev/mapper/swap UUID=xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx
+/dev/mapper/swap          	none      	swap      	defaults  	0 0
