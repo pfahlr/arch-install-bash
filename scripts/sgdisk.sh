@@ -26,7 +26,7 @@ sgdisk --zap-all $target_device
 sgdisk --clear \
   --new=1:0:+500MiB --typecode=1:ef00 --change-name=1:EFI\
   --new=2:0:+8GiB --typecode=1:8200 --change-name=2:ENCSWAP\
-  --new=3:0:+250GiB --typecode=8309 --change-name=3:ENCSYS\
+  --new=3:0:+$system_part_size --typecode=8309 --change-name=3:ENCSYS\
   $target_device
 sgdisk --sort
 

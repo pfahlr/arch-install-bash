@@ -14,6 +14,7 @@ echo "target device: $target_device"
 efinum=1
 swapnum=2
 sysnum=3
+system_part_size=250GiB
 
 system_part=${target_device}$sysnum
 echo "... system partition: $system_part"

@@ -71,13 +71,7 @@ elif [[ $system_part_fstype == "ext4" ]]; then
   mkfs.ext4 -F -L system /dev/mapper/system
 
   echo "-----------------------------------------------------------------------------"
-
-  echo "|=============  CREATING SUBVOLUMES  =======================================|"
   mount -t ext4 LABEL=system /mnt
-
-  echo "-----------------------------------------------------------------------------"
-
-  mkdir /mnt/home /mnt/boot
   ### END EXT4 ###
 
 else
@@ -92,3 +86,4 @@ continueyn
 
 echo "###########!!!  FILESYSTEM BUILD COMPLETE  !!!================================|"
 lsblk
+echo "|============= NEXT: run baseinstall.sh ======================================|>"
