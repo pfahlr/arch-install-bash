@@ -17,9 +17,51 @@ In the end I did what many posts recommend against and guarantee will result in 
 
 I've since read that it is preferable to [add the archstrike repository to manjaro or arch](https://archstrike.org/wiki/setup) if you want access to this selection of pentesting tools 
 
-And if you're new to security and pentesting and ended up here through your searches maybe stumbling around aimlessly seeking some sort of direction but not finding any... allow me to recommend that which was recommended to me. [This may become your new favorite video game.](https://picoctf.org) And if not, I don't know what to tell you. If learning computer science isn't fun for you, I imagine you would need to be a special sort of masochist to be any kind of computer scientist.
+And if you're new to security and pentesting and ended up here through your searches maybe stumbling around aimlessly seeking some sort of direction but not finding any... allow me to recommend that which was recommended to me. [This may become your new favorite video game.](https://picoctf.org) And if not, I don't know what to tell you. If learning computer science isn't fun for you, I imagine you would need to be a special sort of masochist to be any kind of computer scientist. Here are some more gamified cybersecurity learning websites if you enjoyed picoCTF here are a bunch more links (in no particular order) to similar sites where you will learn cybersecurity concepts through a variety of interactive challenges and the like. 
 
-You may also find something interesting to [watch or listen to on infocon.org](https://infocon.org), and site that provides audio and video archives of cybersecurity conference presentations. 
+- [picoCTF.org](https://picoctf.org)
+- [HACKTHEBOX](https://www.hackthebox.com)
+- [TryHackMe](https://tryhackme.com)
+- [RingZer0CTF](https://ringzer0ctf.com/)
+- [Bugcrowd University](https://www.bugcrowd.com/resources/levelup/)
+- [UnderTheWire](https://underthewire.tech)
+- [OverTheWire](https://overthewire.org/wargames/)
+- [VulnHub](https://www.vulnhub.com/)
+- [RootMe](https://www.root-me.org/?lang=en)
+- [PortSwigger](https://portswigger.net/web-security)
+- [CTF Learn](https://ctflearn.com/)
+- [CrackTheLab](https://www.crackthelab.com/)
+- [OWASP's WebGoat](https://owasp.org/www-project-webgoat/)
+- [CTFTime](https://ctftime.org/)
+- [CyberDefenders](https://cyberdefenders.org/)
+- [DefendTheWeb.net](https://defendtheweb.net/dashboard)
+- [CTF365.com](https://ctf365.com)
+- [CTF101.com](https://ctf101.com)
+- [Pentesterlab.com](https://pentesterlab.com)
+- [247ctf.com](https://247ctf.com)
+- [battleh4ck](https://seela.io/battleh4ck/)
+- [Ethernaut](https://ethernaut.openzeppelin.com/)
+- [crackmes.one](https://crackmes.one/)
+- [pwnable.tw](https://pwnable.tw/)
+- [pwnable.kr](https://pwnable.kr/)
+- [cryptohack](https://cryptohack.org/)
+- [exploit.education](https://exploit.education/)
+- [cryptopals.com](https://cryptopals.com/)
+- [w3challs](https://w3challs.com/)
+- [Aman Hardikar's Pentesting Lab](https://www.amanhardikar.com/mindmaps/Practice.html)
+- [alf.nu](https://www.alf.nu/alert1)
+- [hacksplaining](https://www.hacksplaining.com/)
+- [Hacker101 CTF](https://ctf.hacker101.com/)
+- [CMDChallenge](https://cmdchallenge.com/)
+- [hacking-lab.com](https://hacking-lab.com/)
+- [capturetheflag.withgoogle.com](https://capturetheflag.withgoogle.com/)
+- [immersivelabs.com](https://www.immersivelabs.com/)
+- [SMASHTHESTACK.ORG](https://www.smashthestack.org/)
+- [Holiday Hack Challenge](https://www.holidayhackchallenge.com)
+- [Skill Dive](https://ine.com/dive)
+
+  
+- You may also find something interesting to [watch or listen to on infocon.org](https://infocon.org), and site that provides audio and video archives of cybersecurity conference presentations. 
 
 ---
 ### Setup
