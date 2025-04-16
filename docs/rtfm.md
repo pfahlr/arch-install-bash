@@ -9,17 +9,17 @@ by design with the intent to inspire people to dissect and gain an understanding
 
 Hope this is useful to someone.
 
-It's amazing I ever made any money in IT.
+I imagine at this point it's only use is as documentation providing a bit of insight into the process of installing Arch Linux. 
 
-Well I'm not right now. I guess capitalism works sometimes and it got it right that I'm not worth anything.
+That's essentially what I created it for, as a journal of my attempts to install blackarch. 
 
-Fuck Capitalism... Fuck writing pointless code that's only there to sell people bullshit or find out what bullshit they're gonna want to buy next month. I'm done with it. And if that means I gotta go sleep on the street
-whatever. That isn't what I signed up for.
+In the end I did what many posts recommend against and guarantee will result in an unrecoverable system after several rounds of updates. I simply [added the blackarch repository to Manjaro as described in this article](https://infosecjunky.com/installing-blackarch-tools-in-manjaro/). My system never became unusable as a result, but it should be acknowledged that this is not the correct way to do things as this repository represents the entire blackarch distribution and there could be cases where dependencies get all messed up as a result.
 
-Enjoy,
+I've since read that it is preferable to [add the archstrike repository to manjaro or arch](https://archstrike.org/wiki/setup) if you want access to this selection of pentesting tools 
 
+And if you're new to security and pentesting and ended up here through your searches maybe stumbling around aimlessly seeking some sort of direction but not finding any... allow me to recommend that which was recommended to me. [This may become your new favorite video game.](https://picoctf.org) And if not, I don't know what to tell you. If learning computer science isn't fun for you, I imagine you would need to be a special sort of masochist to be any kind of computer scientist.
 
-
+You may also find something interesting to [watch or listen to on infocon.org](https://infocon.org), and site that provides audio and video archives of cybersecurity conference presentations. 
 
 ---
 ### Setup
