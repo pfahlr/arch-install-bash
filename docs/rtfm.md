@@ -13,7 +13,7 @@ The most interesting thing about this project are the resources I've gathered in
 
 you're not really going to run any of this are you?! I certainly hope not 🤣
 
-just [skip past all this nonsense](https://github.com/pfahlr/arch-install-bash/blob/master/docs/rtfm.md#end-of-arch-install-scripts-instructions)
+just [skip past all this useless garbage](https://github.com/pfahlr/arch-install-bash/blob/master/docs/rtfm.md#end-of-arch-install-scripts-instructions)
 
 ---
 
