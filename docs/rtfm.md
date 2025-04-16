@@ -13,7 +13,7 @@ The most interesting thing about this project are the resources I've gathered in
 
 you're not really going to run any of this are you?! I certainly hope not 🤣
 
-just [skip past all this bash stuff](#endinstall)
+just [skip past all this nonsense](#end-of-arch-install-scripts-instructions-endinstall)
 
 ---
 
@@ -68,7 +68,7 @@ created to make all sorts of different systems for various purposes.
   4) onsystem-install.sh
 ---
 
-## End of Arch Install Scripts Instructions. {#endinstall} 
+## End of Arch Install Scripts Instructions.
 
 I imagine at this point it's only use is as documentation providing a bit of insight into the process of installing Arch Linux. 
 
