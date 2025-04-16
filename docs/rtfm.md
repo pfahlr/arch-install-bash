@@ -82,7 +82,7 @@ And if you're new to security and pentesting and ended up here through your sear
 
 ### Gamified Cybersecurity Learning Resources
 
-Here are some more gamified cybersecurity learning websites if you enjoyed picoCTF here are a bunch more links (in no particular order) to similar sites where you will learn cybersecurity concepts through a variety of interactive challenges and the like. 
+If you enjoyed the picoCTF site above here is a large collection of similar sites (in no particular order) where you will learn cybersecurity concepts through a variety of interactive challenges and the like. 
 
 - [picoCTF.org](https://picoctf.org)
 - [HACKTHEBOX](https://www.hackthebox.com)
@@ -128,13 +128,24 @@ Here are some more gamified cybersecurity learning websites if you enjoyed picoC
 
 ### University Courses in Security Topics
 
+You may enjoy learning in this way as well.
+
 - [Modern Binary Exploitation: CSCI 4968 - Course Materials](https://github.com/RPISEC/MBE)
 
 - [CS6.858: Computer Systems Security - MIT Opencourseware Full Course Materials and Lecture Videos](https://css.csail.mit.edu/6.858/2020/)
 
 ### Cybersecurity Conference Archives
   
-- You may also find something interesting to [watch or listen to on infocon.org](https://infocon.org), and site that provides audio and video archives of cybersecurity conference presentations.
+- Maybe you'll discover something that will fundamentally change the way you think about computer science if you dig around on this site awhile. [watch or listen to on infocon.org](https://infocon.org), and site that provides audio and video archives of cybersecurity conference presentations.
+
+Now I've given this reason to exist, and I'm no longer compelled to delete it. I recall the tinkering and filling in of gaps in my knowledge that this project represented to me at the time of its creation. 🔶️♌️2️⃣0️⃣1️⃣9️⃣🔶️ Even though it is effectively useless, it has sentimental value to me, so I didn't want to delete it and instead I'll make it a collection of random educational resources from this point forward 🔸️♈️2️⃣0️⃣2️⃣5️⃣🔸️
+
+🧿🪬
 
 
+keep moving ▶⏩️ 
+
+- ®️ℹ️©️ⓚ 🅿️∫🅰️♓️₤ ♊️
+
+♾️
 
